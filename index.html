@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaibhav Upadhyay - Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+<!-------------------------------font awesome script------------------------- -->
+    <script
+      src="https://kit.fontawesome.com/7b8c9bc62c.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body class="bg-success">
+    <div id="header">
+      <!-- ----------------------------------navication bar--------------------------  -->
+      <div class="container">
+        <nav>
+          <h3 class="PORT">Vaibhav Portfolio</h3>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!------------------------------cross icone for responsive------------------------------->
+            <i
+              class="fa-sharp fa-solid fa-square-xmark fas"
+              onclick="closemenu()"
+            ></i>
+          </ul>
+          <!--------------------------------- menu icon ---------------------------- -->
+          <i class="fa-sharp fa-solid fa-bars fas" onclick="openmenu()"></i>
+        </nav>
+<!-------------------------------------- Home page section--------------------------------  -->
+        <div class="header-text">
+          <h3 class="Animated">Vaibhav Upadhyay</h3>
+          <p class="letter_spa">
+            Software Engineer<span class="test"> <br>  CRM Masters Infotech, Gurugram </span><br />
+            
+          </p>
+         <a class="cvbutton" href="Software Engineer Vaibhav's Resume.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+
+<!-- ---------------------------------------------about page strat here------------------------------------ --- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div id="about-border" class="about-col-1">
+
+          </div>
+          <div  id="about-border" class="about-col-2">
+            <h1 class="sub-title project-ani">About Me</h1>
+            <p class="onto">
+              As a software engineer with one year of experience, my objective is to leverage my skills and knowledge to make a valuable contribution to a dynamic team, fostering continuous learning and growth in my role as a developer. I am actively seeking a challenging position where I can apply my programming expertise, collaborate with other professionals, and contribute to the creation of innovative software solutions. I possess a strong desire to take on new challenges and am unwavering in my commitment to delivering high-quality work that fulfills the needs of users and stakeholders.
+            </p>  
+
+            <!-- -------------------------------skill page desiging ------------------------------>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('project')">Projects</p>
+              <p class="tab-links" onclick="opentab('internship')">
+                Internship
+              </p>
+            </div>
+
+            <!--------------------------------- skill page desiging end here------------------------- -->
+            
+            <!---------------------------------------- your skils are added here---------------------------> 
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span class="project-ani">Programming Language </span><br /><br />Python || 
+                  Javascript || PHP || Java || Deluge ||
+
+                  <br />
+                </li>
+                <li>
+                  <span class="project-ani">Front-End Devlopment</span><br /><br />Html || CSS || Tailwind CSS ||
+                  Bootstrap || React ||
+                </li>
+                <li>
+                  <span class="project-ani">Back-End Devlopment</span><br /><br />
+                  Node.Js || Express || SQL || MongoDb ||
+                </li>
+                <li>
+                  <span class="project-ani">Other Technology :</span><br /><br />Github & Git ||
+                  Wordpress || Shopify ||
+                </li>
+              </ul>
+            </div>
+              <!---------------------------------------- your skils are end here---------------------------> 
+            <!-- -------------------------------education section  add your data----------------------------------->
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span class="project-ani">Bachelor's of Technology : </span><br /><br />
+                  Abdul Kalam Technical University, Lucknow, U.P (2017 - 2021)
+                </li>
+                <li>
+                  <span class="project-ani">Higher Secondary Education</span><br />
+                  <br />G.I.C Inter College Jhansi, U.P(2016 - 2017)
+                </li>
+                <li>
+                  <span class="project-ani"> Senior Secondary Education</span><br />
+                  <br />R.I.C Inter College Ambedkarnagar, U.P (2014 -
+                  2015)
+                </li>
+              </ul>
+            </div>
+
+            <!------------------------------------------project data start ------------------------------------>
+
+            <div class="tab-contents" id="project">
+              <ul>
+
+                <li>
+                  <span class="project-ani">Grocery Mart </span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/grocery-website/"
+                  >
+                  https://vaibhavupadhyayy.github.io/grocery-website/</a
+                  >
+                </li>
+              
+                <li>
+                  <span class="project-ani">Book Store </span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/bookstore/"
+                  >
+                    https://vaibhavupadhyayy.github.io/bookstore/</a
+                  >
+                </li>
+
+                <li>
+                  <span class="project-ani">Coffee Store </span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/Coffeestore/"
+                  >
+                    https://vaibhavupadhyayy.github.io/Coffeestore/</a
+                  >
+                </li>
+
+                <li>
+                  <span class="project-ani">Car Racing Game</span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/Animatedcar/"
+                  >
+                    https://vaibhavupadhyayy.github.io/Animatedcar/</a
+                  >
+                </li>
+                
+              </ul>
+            </div>
+
+            <!-- ---------------------------------intership data ------------------------------------- -->
+
+            <div class="tab-contents" id="internship">
+              <ul>
+                <li>
+                  <span class="project-ani">Full Stack  Development</span><br /><br />
+                  Completing an intensive full-stack development course offered by Timespro indicates that the individual has undergone a rigorous and immersive training program covering both front-end and back-end web development.
+                </li>
+                <li>
+                  <span class="project-ani"> Web Development</span><br /><br />
+                  Completing a comprehensive web development internship program through Internshala signifies that the individual has undergone an immersive learning experience focused on web development.
+                </li>
+                <li>
+                  <span class="project-ani">Personality  Development</span><br /><br />
+                  The three-month Personality Development Course offered by Vivekanand Training in Jhansi is designed to enhance individuals' personal and professional skills. 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- _______________________________________________services page start here_______________________________________________  -->
+
+    <div id="services">
+        <h1 class="sub-title project-ani ">Our Services</h1>
+        <div  class="services-list">
+          <div>
+            <h2 class="service project-ani">Web Development</h2>
+            <img  src="webdev.jpg" alt="">
+            <p class="para ">
+              We offer comprehensive website development services encompassing both front-end and back-end design, all created with a modern touch. Our approach is centered around building websites that align with your unique preferences and requirements. Moreover, we provide these services at highly competitive prices. For a deeper understanding of our capabilities, please visit the Projects section on our website, where you can gain insight into our service offerings. Should you require any further information, please don't hesitate to contact us using the provided phone numbers.
+            </p>
+           
+          </div>
+          <div>
+            <h2 class="project-ani">App Development</h2>
+            <img src="appdev.jpg" alt="">
+            <p class="para">
+              We are excited to introduce our Android app development service. Android app development is rapidly advancing in today's digital landscape, and we have made the decision to offer this service to our clients. Our team specializes in creating custom Android apps that align with your specific requirements and preferences. Whether you have a clear vision or need assistance in shaping your app, we are dedicated to developing a modern and visually stunning Android app tailored to your needs. For more information, please contact us at the phone numbers provided below.
+            </p>
+        
+          </div>
+          <div>
+            <h2 class="project-ani">Photo Editing</h2>
+            <img src="phtoediting.jpg" alt="">
+            <p class="para">
+              We offer professional photo editing and video editing services at affordable prices. Our skilled team specializes in various editing techniques, ensuring high-quality results. For video editing, we provide services like creating reels, slow-motion videos, promotional videos, and other innovative video styles. Utilizing top-level editing applications, we cater to your specific photo editing needs, providing customized enhancements. Our video editing services are also tailored to your requirements. For more information or to discuss your editing projects, please contact us at the phone numbers provided below. 
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </div> 
+
+  <!----------------------------------------------- services page end here  ---------------------------------------------  -->
+
+  <!--------------------------  react  project start here --------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title project-ani">React Applications</h1>
+      <div class="work-list">
+        <!---------------------- first D-Mart Ecommerce project ------------------------ -->
+        <div id="myDIV" class="work">
+          <div class="layer">
+            <h3 class="project-ani"> D-Mart Ecommerce </h3>
+           
+            <img src="reactecom.png" alt="" >
+              <h5 class="project-link-animation">Features: </h5>
+             <p>Welcome to our exceptional D-Mart Ecommerce platform, where we have integrated advanced features to provide you with a seamless and enjoyable shopping experience. With our secure login powered by Firebase, you can trust that your personal information is protected. Our thoughtfully designed add to cart feature ensures effortless navigation, making it a breeze to add products to your cart. Additionally, our convenient product sorting option allows you to find items quickly and easily by name. Discover the convenience and efficiency of our platform as you explore our extensive range of products.</p>
+              <h5 class="project-link-animation">Technology :</h5>
+              <p>Teck Stack for  D-Mart Ecommerce project Node, React, JSX</p>
+            <h5 class="project-link-animation">Project Link</h5>
+             <a class="btn-project" href="https://github.com/vaibhavupadhyayy" >Click Here</a>
+            <h5 class="project-link-animation">Loom Video</h5>
+             <a class="btn-project" href="https://www.loom.com/share/123405e6511c4858bdd1e4002d0bfecd" >Click Here</a>
+          </div>
+        </div>
+
+          <!---------------------- Movie Clone react project ------------------------ -->
+          <div id="myDIV" class="work">
+            <div class="layer">
+              <h3 class="project-ani">Movie Clone</h3>
+              <img src="moviescl.png" alt="" >
+                <h5 class="project-link-animation">Features: </h5>
+                <p>Welcome to our captivating movie clone project, where we have created an immersive and user-friendly platform for movie enthusiasts. Using advanced API integration, we bring you an extensive collection of movies that you can explore and enjoy. Our project boasts a fully responsive design, ensuring a seamless viewing experience across all devices, whether you're using a computer, tablet, or smartphone. With our easy-to-navigate interface, you can effortlessly search, browse, and watch your favorite movies, providing you with hours of entertainment at your fingertips</p>
+                <h5 class="project-link-animation">Technology :</h5>
+                <p>Teck Stack for Movie Clone Aapp project Node, React, JSX </p>
+              <h5 class="project-link-animation">Project Link</h5>
+               <a class="btn-project" href="https://github.com/vaibhavupadhyayy" >Click Here</a>
+              <h5 class="project-link-animation">Loom Video</h5>
+               <a class="btn-project" href="https://www.loom.com/share/ab72628aa10e478ba9b786a7e0ecadab" >Click Here</a>
+            </div>
+          </div>
+<!--------------------------------------- Curd App react projects ----------------- -->
+          <div id="myDIV" class="work">
+            <div class="layer">
+              <h3 class="project-ani">Curd Application</h3>
+              <img src="curdapp.png" alt="" >
+                <h5 class="project-link-animation">Features: </h5>
+                <p>Welcome to our Curd App project, where we empower you to take control of your data. With our intuitive platform, you can easily create, update, and delete data according to your needs. Seamlessly create new entries and input relevant information with ease. Update existing data effortlessly, ensuring accuracy and up-to-date information. Should you no longer require certain data, our user-friendly interface allows for efficient deletion, ensuring a streamlined and clutter-free environment.Experience the freedom and flexibility to manage your data effectively with our attractive project, putting you in the driver's seat.
+
+                </p>
+                <h5 class="project-link-animation">Technology :</h5>
+                <p>Teck Stack for Curd Aapplication project Node, React, Mongodb </p>
+              <h5 class="project-link-animation">Project Link</h5>
+               <a class="btn-project" href="https://github.com/vaibhavupadhyayy" >Click Here</a>
+              <h5 class="project-link-animation">Loom Video</h5>
+               <a class="btn-project" href="#" >Click Here</a>
+            </div>
+          </div>
+
+        </div>
+        </div>
+<!-- ----------------------------------------------react projets end here ------------------------------------ -->
+
+
+<!-- -------------------------portfolio project design-------------------------------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title project-ani">My Works</h1>
+        <div class="work-list">
+          <!---------------------- first project ------------------------ -->
+          <div id="myDIV" class="work">
+            <div class="layer">
+              <h3 class="project-ani">Coffee Store</h3>
+              <img src="coffe.png" alt="" >
+                <h5 class="project-link-animation">Features: </h5>
+                <p>Welcome to our innovative project, where we combine technical prowess with user-centric features. Our platform incorporates cutting-edge technologies to create a seamless and immersive experience. With our customer reviews feature, fostering a sense of community and trust. The visually appealing sliding card design enhances the user interface, allowing for intuitive navigation and engaging interactions. Additionally, we have integrated map features, providing users with location-based information and enhancing the overall functionality of the platform. Immerse yourself in our project and unlock a world of interactive experiences, customer reviews, and map features that will revolutionize the way you engage with our platform.</p>
+                <h5 class="project-link-animation">Technology :</h5>
+                <p>Teck Stack for Coffee Store website project Html, CSS, Javascript  </p>
+              <h5 class="project-link-animation">Project Link</h5>
+               <a class="btn-project" href="https://vaibhavupadhyayy.github.io/Coffeestore/" >Click Here</a>
+              <h5 class="project-link-animation">Loom Video</h5>
+               <a class="btn-project" href="#" >Click Here</a>
+            </div>
+          </div>
+  <!----------------------------- Second project ------------------------ -->
+          <div id="myDIV" class="work">
+            <div class="layer">
+              <h3 class="project-ani">Grocery Mart</h3>
+      
+
+
+              <img src="grocery.png" alt="">
+              <h5 class="project-link-animation">Features: </h5>
+            <p>Welcome to our Grocery Mart that seamlessly blends technical expertise with user-centric features. Our platform showcases a range of cutting-edge elements designed to enhance your experience. We have created Card Icons with hyperlinks, allowing for easy navigation and access to relevant information. The incorporation of visually appealing food price and discount designs adds a touch of elegance to your shopping experience. Moreover, our dedicated frontend design for grocery services ensures a smooth and efficient interface, providing a seamless browsing experience, and user-friendly grocery services that will elevate your online shopping journey.</p>
+               <h5 class="project-link-animation">Technology :</h5>
+              <p>Teck Stack for Grocery Mart project Html, CSS, Javascript </p>
+              <h5 class="project-link-animation">Project Link</h5>
+              <a class="btn-project" href="https://vaibhavupadhyayy.github.io/grocery-website/" >Click Here</a>
+              <h5 class="project-link-animation">Loom Video</h5>
+              <a class="btn-project" href="https://www.loom.com/share/0c5b82e406b8483bb99bf146a45a5eea" >Click Here</a>
+              
+            </div>
+          </div>
+  <!---------------------- ---------third project ------------------------ -->
+          <div id="myDIV" class="work">
+            <div class="layer">
+              <h3 class="project-ani">Shoes Store</h3>
+           
+              <img src="Ecoamj.png" alt="">
+              <h5 class="project-link-animation">Features: </h5>
+              <p>Welcome to our Shoes Website project, where we seamlessly combine technical expertise with a focus on user experience. Our platform offers an extensive range of shoes, meticulously curated with attention to detail, including color combinations to suit every style. Discover top branded shoes that not only exude quality and style but also come with attractive discounts, allowing you to elevate your footwear collection affordably. To enhance your shopping convenience, we have incorporated free shipping features, ensuring that your desired shoes are delivered directly to your doorstep without any additional cost. Immerse yourself in our project and experience the perfect blend of style</p>
+               <h5 class="project-link-animation" >Technology :</h5>
+              <p>Teck Stack for Shoes website project Html, CSS, Javascript </p>
+              <h5 class="project-link-animation">Project Link</h5>
+              <a class="btn-project" href="https://vaibhavupadhyayy.github.io/Ecommercewebsite/" >Click Here</a>
+              <h5 class="project-link-animation">Loom Video</h5>
+              <a class="btn-project" href="https://www.loom.com/share/2aea10ceb1384c38983cab9d10aefc2c" >Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------------second project -card-------------------------  -->
+
+    <div id="portfolio">
+      <div class="container">
+        <div class="work-list">
+           <!---------------------- fourth project ------------------------ -->
+          <div id="myDIV" class="work">
+            <div class="layer">
+              <h3 class="project-ani">Tour Website</h3>
+              
+              <img src="tourtravel.png" alt="">
+              <h5 class="project-link-animation">Features: </h5>
+             <p>Welcome to our tour traval project, where we seamlessly integrate advanced technology with user-centric features. Immerse yourself in a visually stunning experience with our collection of huge, beautiful images that showcase our products in exquisite detail. Gain insights and build trust with customer reviews, as users share their experiences and recommendations. With our predictive search functionality, finding your desired products is a breeze, as the system anticipates and suggests relevant options as you type. Explore our project and indulge in the captivating visuals, valuable customer reviews, and effortless search capabilities that will enhance your shopping journey.s</p>
+               <h5 class="project-link-animation">Technology :</h5>
+              <p >Teck Stack for  Tour Website  project Html, CSS, Javascript</p>
+              <h5 class="project-link-animation">Project Link</h5>
+             <a class="btn-project" href="https://vaibhavupadhyayy.github.io/Tourproject/" >Click Here</a>
+              <h5 class="project-link-animation">Loom Video</h5>
+             <a class="btn-project" href="#" >Click Here</a>
+            </div>
+          </div>
+ <!---------------------------------- fivth project ------------------------ -->
+          <div  id="myDIV" class="work">
+            <div class="layer">
+              <h3 class="project-ani">Book Store</h3>
+              
+              <img src="book.png" alt="">
+              <h5 class="project-link-animation">Features: </h5>
+            <p>Welcome to our News Application project, where we blend technical expertise with a focus on user satisfaction. With the implementation of setTimeout and loading images, we ensure a seamless browsing experience, minimizing loading times and keeping users engaged. Our platform supports various platforms, including desktop, mobile, and tablet, guaranteeing accessibility and functionality across devices. Delve into our vast collection of books, offering a diverse range of genres and topics to cater to every reader's preference. Immerse yourself in our project and enjoy the seamless browsing, multi-platform support, and an extensive library of captivating books that will ignite your passion for reading.</p>
+             
+               <h5 class="project-link-animation">Technology :</h5>
+              <p>Teck Stack for Book store  project Html, CSS, Javascript</p>
+              <h5 class="project-link-animation">Project Link</h5>
+             <a class="btn-project" href="https://vaibhavupadhyayy.github.io/bookstore/" >Click Here</a>
+              <h5 class="project-link-animation">Loom Video</h5>
+             <a class="btn-project" href="https://www.loom.com/share/8880cb3cf64e48b7b6055c4bd0589a90" >Click Here</a>
+            </div>
+          </div>
+ <!---------------------- -----------six project ------------------------ -->
+          <div id="myDIV" class="work">
+            <div class="layer">
+              <h3 class="project-ani">News App</h3>
+              <img src="news.png" alt="">
+              <h5 class="project-link-animation">Features: </h5>
+             <p>Welcome to our News App project that caters to news enthusiasts and trending topics. Stay updated with the latest happenings as we curate the best news content for your convenience. In addition, we offer premium content to provide an enhanced experience and exclusive access to in-depth articles and features. To ensure accurate and up-to-date weather information, we utilize the OpenWeather REST API, enabling real-time weather data integration. Immerse yourself in our project and discover a world of engaging news, premium content, and reliable weather information, all in one platform designed to keep you informed and entertained.</p>
+            
+               <h5 class="project-link-animation">Technology :</h5>
+              <p>Teck Stack for  News application  project Html, CSS, Javascript </p>
+              <h5 class="project-link-animation">Project Link</h5>
+             <a class="btn-project" href="https://vaibhavupadhyayy.github.io/newsapi/" >Click Here</a>
+              <h5 class="project-link-animation">Loom Video</h5>
+             <a class="btn-project" href="https://www.loom.com/share/57273be3f2064ca6ac7b07b4136b4b22" >Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!----------------------------------------------------- third project design --------------------------   -->
+  
+  <div id="portfolio">
+    <div class="container">
+      <div class="work-list">
+         <!---------------------- 7th project ------------------------ -->
+        <div  id="myDIV"class="work">
+          <div class="layer">
+            <h3 class="project-ani">Age Calculator</h3>
+       
+            <img src="agecal.png" alt="">
+            <h5 class="project-link-animation">Features: </h5>
+            <p>Welcome to our Age Calculator  project, where we seamlessly blend technical sophistication with user-friendly features. With our advanced functionality, you can now display your age in years and months, providing a comprehensive view of your personal timeline. Our intuitive age calculation tool simplifies the process, allowing you to effortlessly determine your age with just a few clicks. To enhance navigation and ease of use, we have incorporated a versatile navbar feature, providing easy access to different sections of our platform. Experience the convenience of accurately displaying your age, effortlessly calculating it, and navigating seamlessly through our project with our user-friendly interface and cutting-edge features.</p>
+             <h5 class="project-link-animation">Technology :</h5>
+            <p>Teck Stack for  Age Calculator  project Html, CSS, Javascript </p>
+            <h5 class="project-link-animation">Project Link</h5>
+             <a class="btn-project" href="https://vaibhavupadhyayy.github.io/agecal/" >Click Here</a>
+            <h5 class="project-link-animation">Loom Video</h5>
+           <a class="btn-project" href="https://www.loom.com/share/ea576c3824f049a6ab53fe29cce7d128" >Click Here</a>
+          </div>
+        </div>
+<!---------------------------------- 8th project ------------------------ -->
+        <div id="myDIV" class="work">
+          <div class="layer">
+            <h3 class="project-ani">Weather Application</h3>
+          
+            <img src="weatherapp.png" alt="">
+            <h5 class="project-link-animation">Features: </h5>
+           <p>Welcome to our Weather App project that seamlessly combines technical excellence with user-friendly features. We prioritize accuracy in location selection, ensuring that you cannot enter a wrong city, guaranteeing precise weather information for your desired location. Our project utilizes the powerful OpenWeatherMap API to provide real-time weather updates, enabling you to stay informed about current conditions, forecasts, and more. With a focus on detail, we allow you to easily check the wind speed in your chosen location, providing valuable insights for outdoor activities and planning. Immerse yourself in our project and enjoy the benefits of accurate city selection</p>
+             <h5 class="project-link-animation">Technology :</h5>
+            <p>Teck Stack for Weather App project Html, CSS, Javascript  </p>
+            <h5 class="project-link-animation">Project Link</h5>
+           <a class="btn-project" href="https://vaibhavupadhyayy.github.io/weatherapp/" >Click Here</a>
+            <h5 class="project-link-animation">Loom Video</h5>
+             <a class="btn-project" href="https://www.loom.com/share/90748b9eec004941a64f20e14b825acc" >Click Here</a>
+          </div>
+        </div>
+<!---------------------- -----------9th project ------------------------ -->
+        <div id="myDIV" class="work">
+          <div class="layer">
+            <h3 class="project-ani">Car Racing Game</h3>
+            <br>
+            <img src="game.png" alt="">
+            <h5 class="project-link-animation">Features: </h5>
+           <p>Welcome to our Car racing game project that combines technical prowess with immersive gaming experiences. Immerse yourself in the world of car animation with our captivating game, where you can race against the clock or compete with friends for the top spot. To enhance the visual appeal, we have incorporated dynamic background animations that bring the game to life, creating an engaging and visually stunning environment. To further enhance the gaming experience, we have added background music that sets the tone and adds excitement to every race. Dive into our project and enjoy the thrill of car animation, captivating background animations</p>
+             <h5 class="project-link-animation">Technology :</h5>
+            <p>Teck Stack for Car racing game project Html, CSS, Javascript  </p>
+            <h5 class="project-link-animation">Project Link</h5>
+           <a class="btn-project" href="https://vaibhavupadhyayy.github.io/Animatedcar/" >Click Here</a>
+            <h5 class="project-link-animation">Loom Video</h5>
+           <a class="btn-project" href="https://www.loom.com/share/9cee274d78764cdea0949576d0975392" >Click Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+      </div>
+    </div>
+
+    <!----------------------------------------conatct ----------------------------------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="contact-title service project-ani">Contact Us</h1>
+            <p><i class="fa-solid fa-phone"></i>Mobile No :  8887706320</p>
+            <p><i class="fa-brands fa-whatsapp"></i>Whatsappp : 7991284491</p>
+            
+            <p><i class="fa-sharp fa-solid fa-location-dot"></i>Om Sai Puram Jhansi, U.P</p>
+            <p>
+              <i class="fa-solid fa-envelope"></i>vaibhavupadhyay306@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i>vaibhavupadhyay301@gmail.com
+            </p>
+
+            <div class="social-icons">
+              <a href="https://www.hackerrank.com/vaibhavupadhyay5"
+                ><i class="fa-brands fa-hackerrank"></i
+              ></a>
+              <a href="https://github.com/vaibhavupadhyayy"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+
+              <a
+                href="https://instagram.com/vaibhav.upadhyay20?igshid=YmMyMTA2M2Y="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/vaibhav-upadhyay-03b1b1179/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.facebook.com/vaibhav.upadhyay.52056223"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+             
+            </div>
+  
+         
+
+  
+          </div>
+          <div class="contact-right">
+            <h1 class="contact-title service project-ani"> Enquiry Form</h1>
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <input
+                type="text"
+                name="Contact no"
+                placeholder="Enter Your Contact No"
+                required
+              />
+              <input
+                type="text"
+                name="Message"
+                placeholder="Enter Your Address"
+                required
+              />
+              <input
+                type="text"
+                name="Message"
+                placeholder="Enter Your Messsge"
+                required
+              />
+              <button type="submit" class="btn-submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+
+
+       <!-- ------------------------ usefulllink design--------------------------------------   -->
+          <div class="contact-left">
+            <h1 class="contact-title service project-ani">Useful Link</h1>
+            <div class="useful_linke">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          
+          </div>
+             </div>
+             <div class="contact-right">
+              <h1 class="contact-title service project-ani">Find Me</h1>
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115293.28373109756!2d78.49224779496137!3d25.441101242886667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397776d458ba7703%3A0x96e9cda55c3481ca!2sJhansi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1676802285549!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ----------------------------------------------------footer start here ------------------------------------------------------ -->
+
+    <div class="copyright project-ani ">
+      <p>
+        &copy; Copyright 2020-2023 Created by Vaibhav Upadhyay. INC All Rights Reserved 
+      </p>
+      <div class="foot">
+        <a href="https://www.hackerrank.com/vaibhavupadhyay5"
+          ><i class="fa-brands fa-hackerrank"></i
+        ></a>
+        <a href="https://github.com/vaibhavupadhyayy"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://instagram.com/vaibhav.upadhyay20?igshid=YmMyMTA2M2Y="
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/vaibhav-upadhyay-03b1b1179/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.facebook.com/vaibhav.upadhyay.52056223"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+    </div>
+
+    <!------------------------------------------- javascript coadig for about section---------------------------------- -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-250px";
+      }
+    </script>
+<!---------------------------- script for google sheets-------------------------------------  -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx989d5oUTZS6ELSSBGNfMel94vyWlAYcSFgr9I0dUMoIqeMIavRsDQvEDw-d3uKmRnqA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message send successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 4000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>

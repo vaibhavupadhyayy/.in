@@ -1,0 +1,1125 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
+
+/*----------------  for home page animated text--------------  */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ----------------------animiation fot about section-------------------------  */
+
+#about-border {
+  border: 3px solid rgb(235, 4, 231);
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    border-color: rgb(253, 4, 103);
+  }
+  20% {
+    border-color: rgb(219, 238, 5);
+  }
+  40% {
+    border-color: rgb(8, 8, 214);
+  }
+  60% {
+    border-color: rgb(10, 227, 3);
+  }
+  80% {
+    border-color: rgb(243, 7, 152);
+  }
+  80% {
+    border-color: rgb(251, 9, 9);
+  }
+}
+#myDIV {
+  border: 4px solid rgb(235, 4, 231);
+  animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    border-color: rgb(253, 4, 103);
+  }
+  20% {
+    border-color: rgb(219, 238, 5);
+  }
+  40% {
+    border-color: rgb(8, 8, 214);
+  }
+  60% {
+    border-color: rgb(10, 227, 3);
+  }
+  80% {
+    border-color: rgb(243, 7, 152);
+  }
+  80% {
+    border-color: rgb(251, 9, 9);
+  }
+}
+
+/*---------------------- border animaion for project --------------- */
+
+#myDIV {
+  border: 4px solid rgb(235, 4, 231);
+  animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    border-color: rgb(253, 4, 103);
+  }
+  20% {
+    border-color: rgb(251, 8, 16);
+  }
+  40% {
+    border-color: rgb(8, 8, 214);
+  }
+  60% {
+    border-color: rgb(10, 227, 3);
+  }
+  80% {
+    border-color: rgb(4, 193, 162);
+  }
+}
+
+@keyframes example {
+  0% {
+    color: red;
+  }
+  10% {
+    color: rgb(163, 241, 7);
+  }
+  20% {
+    color: rgb(5, 219, 201);
+  }
+
+  45% {
+    color: rgb(201, 3, 40);
+  }
+  50% {
+    color: blue;
+  }
+  60% {
+    color: rgb(67, 247, 1);
+  }
+
+  80% {
+    color: rgb(255, 0, 68);
+  }
+
+  100% {
+    color: rgb(242, 6, 171);
+  }
+}
+/* for name vaibhav animation  */
+.Animated {
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test {
+  0% {
+    color: rgba(54, 0, 231, 0.748);
+  }
+
+  20% {
+    color: black;
+  }
+
+  50% {
+    color: rgb(244, 0, 219);
+  }
+  60% {
+    color: rgb(0, 223, 186);
+  }
+
+  100% {
+    color: rgb(217, 3, 3);
+  }
+}
+
+.test {
+  animation-name: test;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+
+/*------------- for project animation text ------------------ */
+
+.project-ani {
+  animation-name: project;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes project {
+  0% {
+    color: yellow;
+  }
+  25% {
+    color: rgb(40, 9, 218);
+  }
+  50% {
+    color: rgb(13, 223, 6);
+  }
+  100% {
+    color: rgb(243, 7, 81);
+  }
+}
+/* ----------------------for project deatails Animation ----------------- */
+.project-link-animation {
+  animation-name: project1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes project1 {
+  0% {
+    color: rgb(251, 0, 100);
+  }
+  50% {
+    color: rgb(14, 7, 243);
+  }
+  100% {
+    color: rgb(9, 220, 13);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color:#171515; */
+  background: #ffffff;
+  color: black;
+  font-family: sans-serif;
+}
+/*------------------------------------- letterr space  for name and postion home page------------------------------------------ */
+
+.letter_spa {
+  font-weight: 600;
+  line-height: 70px;
+  font-size: 30px;
+  left: 2px;
+  margin-top: 3px;
+}
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url();
+  cursor: pointer;
+}
+
+.container {
+  /* padding: 10px 4%; */
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 10px 4%;
+font-family: sans-serif;
+
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul li :hover {
+  color: rgb(235, 11, 37);
+}
+
+.header-text {
+  margin-top: 15%;
+  margin-left: 13%;
+}
+
+.header-text h1 {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.header-text h3 {
+  color: black;
+  font-size: 40px;
+}
+
+.header-text h1 span {
+  color: red;
+}
+
+.PORT {
+  font-size: 15px;
+  letter-spacing: 0.;
+  color: white;
+}
+.cvbutton {
+  margin-top: 40px;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  padding: 15px;
+  color: rgb(3, 1, 1);
+  padding: 6px;
+  background-color: rgb(221, 215, 215);
+  border: 1px solid rgb(9, 2, 9);
+  border-radius: 2px;
+}
+.cvbutton:hover {
+  background-color: rgb(246, 2, 14);
+  color: white;
+}
+.button {
+  background-color: rgb(192, 38, 38);
+}
+
+/*------------------------------------------about page  css start here----------------- ----------------- */
+
+#about {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 10px 4%;
+}
+/* ---------------------------------------about me section--------------------------------------------- */
+.onto {
+  color: black;
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 1.3px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  width: 43%;
+  border-radius: 5px;
+  background-image: url(myphoto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.about-col-1 h1 {
+  margin-left: 100px;
+  font-size: 19px;
+}
+
+.about-col-2 {
+  margin-left: 5px;
+  width: 49%;
+  border-radius: 5px;
+  height: 90vh;
+  cursor: pointer;
+}
+
+.sub-title {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.tab-titles {
+  display: flex;
+  color: rgb(17, 6, 6);
+  margin: 20px 0px 20px 0;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.tab-links {
+  margin-left: 20px;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  color: rgb(218, 2, 63);
+}
+
+.tab-links:hover {
+  color: black;
+}
+
+.tab-links::after {
+  content: "";
+  width: 0;
+  height: 8px;
+  background: rgb(86, 210, 4);
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.active-link.active-link::after {
+  width: 50%;
+}
+
+/*----------------------------------- skills section------------------------------------------  */
+
+.tab-contents ul li {
+  list-style: none;
+  padding-left: 15px;
+  margin: 13px 0;
+  color: black;
+  font-size: 18px;
+}
+
+.tab-contents ul li span {
+  color: rgb(140, 3, 8);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tab-contents {
+  display: none;
+  margin-left: 20px;
+  margin-right: 12px;
+}
+.tab-contents.active-tab {
+  display: block;
+}
+
+/* -------------------------------------------------services start  css --------------------- --------------------------- */
+
+#services {
+  border-radius: 10px;
+  padding: 40px 60px;
+  margin-bottom: 30px;
+  /* opacity: 0.8; */
+  padding: 10px 4%;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 35px;
+  margin-top: 50px;
+}
+
+.services-list img {
+  height: 25vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.services-list div {
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  border: 2px solid #1b6a28;
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+  height: 70vh;
+}
+
+/*------------------------ for red icon services--------------------------  */
+
+.services-list .para {
+  margin-top: 10px;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.services-list .letter-space-react p,
+h5 {
+  padding: 2px;
+}
+.services-list img {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.services-list div h2 {
+  color: black;
+  font-size: 22px;
+  padding-left: 70px;
+  margin-bottom: 5px;
+}
+.services-list .text-mywork {
+  margin-left: 30px;
+  font-size: 15px;
+  color: rgb(20, 20, 142);
+}
+
+.services-list div a {
+  text-decoration: none;
+  color: rgb(7, 5, 166);
+  font-size: 9px;
+  display: inline-block;
+}
+.services-list h5 {
+  color: rgb(155, 5, 90);
+  font-size: 14px;
+}
+
+.services-list :hover {
+  transform: translate(-5px);
+}
+
+/*--------------------------------my work portfolio---------------------------------- */
+
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 60px;
+  padding: 10px 4%;
+}
+.work:hover {
+  transform: translate(-1px);
+}
+
+.work {
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  height: 87vh;
+  background-color: white;
+  color: black;
+}
+
+.work :hover {
+  background-color: rgb(241, 232, 232);
+  transform: translate(-2px);
+}
+
+.work img {
+  border-radius: 3px;
+  width: 100%;
+  height: 28%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layer {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  flex-direction: column;
+  line-height: 1.2;
+}
+.layer h5 {
+  padding-left: 10px;
+  color: rgb(224, 1, 120);
+}
+.layer p {
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn-project {
+  margin-left: 55px;
+  border-radius: 2px;
+  text-decoration: none;
+  background-color: rgb(231, 4, 4);
+  color: rgb(244, 244, 245);
+  border: 1px solid green;
+  font-size: 11px;
+  padding: 2px 2px;
+}
+.btn-project:hover {
+  background-color: rgb(200, 2, 42);
+}
+
+.layer h5,
+p {
+  margin-top: 6px;
+}
+
+.layer h3 {
+  margin-top: 10px;
+  margin-left: 17px;
+  font-size: 18px;
+  color: rgb(3, 1, 2);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* ------------------------contact page here ---------------------- */
+
+#contact {
+  border-radius: 10px;
+}
+
+.contact-title {
+  font-size: 25px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+.onti {
+  font-size: 19px;
+}
+
+.contact-left {
+  flex-basis: 40%;
+  font-size: 19px;
+  line-height: 1.3;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.contact-right {
+  flex-basis: 48%;
+  margin-top: 50px;
+}
+
+.contact-left p {
+  margin-top: 15px;
+}
+
+.contact-left p i {
+  color: rgb(6, 123, 25);
+  margin-right: 15px;
+  font-size: 30px;
+}
+
+.fa-brands {
+  font-size: 40px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin-top: 30px;
+  margin-right: 15px;
+  color: rgb(3, 11, 158);
+  display: inline-block;
+  transition: transform(0.5s);
+}
+
+.social-icons a :hover {
+  color: rgb(8, 0, 255);
+  transform: translate(-5px);
+}
+
+/* ---------------------------------cv button design---------------------------  */
+
+.btn-submit {
+  margin-left: 200px;
+  padding: 7px 25px;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  border-radius: 1px solid green;
+}
+
+.btn-submit:hover {
+  background-color: red;
+  color: white;
+}
+
+.contact-right form {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 89%;
+  height: 28px;
+  border: 1;
+  outline: none;
+  background: white;
+  padding: 1px;
+  margin: 8px 0;
+  color: rgb(14, 2, 2);
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+/*-------------------------------- sumit data button --------------------- */
+
+.useful_linke li a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+.useful_linke li {
+  margin-top: 10px;
+  list-style: none;
+}
+.map {
+  margin-top: 10px;
+  margin-left: 120px;
+  height: 25vh;
+  margin-bottom: 40px;
+}
+
+/*------------------------------------ footer-------------------------------------  */
+.foot {
+  margin-top: 15px;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  background-color:black;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.copyright i {
+  font-size: 25px;
+
+  color: rgb(233, 2, 29);
+}
+.copyright i:hover {
+  font-size: 25px;
+  color: rgb(0, 0, 241);
+}
+
+
+nav.fa {
+  display: none;
+}
+
+nav .fas {
+  display: none;
+}
+
+/* ---------------------------------------css for small screen  Responsive Design---------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  .body {
+    font-family: sans-serif;
+  }
+
+  /*---------------------- border animaion for project --------------- */
+  #about-border {
+    border: 3px solid rgb(235, 4, 231);
+    animation: mymove 2s infinite;
+  }
+  @keyframes mymove {
+    0% {
+      border-color: rgb(253, 4, 103);
+    }
+    20% {
+      border-color: rgb(219, 238, 5);
+    }
+    40% {
+      border-color: rgb(8, 8, 214);
+    }
+    60% {
+      border-color: rgb(13, 245, 5);
+    }
+    80% {
+      border-color: rgb(243, 7, 152);
+    }
+    80% {
+      border-color: rgb(251, 9, 9);
+    }
+    100% {
+      border-color: rgb(2, 218, 103);
+    }
+  }
+  #myDIV {
+    border: 3px solid rgb(235, 4, 231);
+    animation: mymove 1s infinite;
+  }
+
+  @keyframes mymove {
+    0% {
+      border-color: rgb(253, 4, 103);
+    }
+    20% {
+      border-color: rgb(219, 238, 5);
+    }
+    40% {
+      border-color: rgb(8, 8, 214);
+    }
+    60% {
+      border-color: rgb(13, 245, 5);
+    }
+    80% {
+      border-color: rgb(243, 7, 152);
+    }
+    80% {
+      border-color: rgb(251, 9, 9);
+    }
+    100% {
+      border-color: rgb(2, 218, 103);
+    }
+  }
+
+  /*---------------------- border animaion for project end --------------- */
+
+  /* ----------------------------Home page css start -------------------- */
+  .letter_spa {
+    line-height: 65px;
+    font-size: 25px;
+    left: 2px;
+    margin-top: 3px;
+  }
+  .header-text {
+    margin-top: 62%;
+    margin-left: 5%;
+  }
+  nav .fas {
+    display: block;
+    font-size: 30px;
+  }
+  .header-text p {
+    font-size: 28px;
+  }
+
+  .header-text h3 {
+    font-size: 30px;
+  }
+  .header-text span {
+    font-size: 27px;
+  }
+  /* -------------------.cvbutton -------------- */
+  .cvbutton {
+    margin-left: 5px;
+    margin-top: 36px;
+    font-size: 14px;
+    color:black;
+    padding: 6px;
+    background-color: rgb(221, 215, 215);
+    border: 1px solid rgb(3, 194, 16);
+    border-radius: 2px;
+  }
+  /*-------------- for responsive menu top icons-------------------------- */
+  nav ul {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.3;
+  }
+  nav ul li a {
+    color: white;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  .fa-sharp{
+    color: white;
+  }
+  /*-------------------------------------responsive menu end------------------------------  */
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    color: white;
+  }
+  /* ---------------------------home page css end here-------------------  */
+
+  /*---------------------about page css start here---------------------  */
+
+  /* ------------------eduction gap in skill and other content ---------------------- */
+
+  .tab-links {
+    margin-left: 1px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+  }
+  .onto {
+    color: black;
+    font-size: 14px;
+    margin-top: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .sub-title h1 {
+    margin-right: 10px;
+  }
+
+  .sub-title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: black;
+  }
+
+  .details h1 {
+    font-size: 13px;
+  }
+
+  .details h1 span {
+    color: white;
+    font-size: 14px;
+  }
+
+
+  .about-col-1 {
+    width: 100%;
+    height: 45vh;
+    flex-basis: 100%;
+    border-radius: 5px;
+    background-image: url(myphoto.jpg);
+  }
+
+  .about-col-2 {
+    flex-basis: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .tab-contents {
+    display: none;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .tab-contents ul li {
+    font-size: 13px;
+  }
+
+  .tab-contents ul li span {
+    font-size: 14px;
+  }
+  /* linke size change  */
+  .linke {
+    color: rgb(22, 125, 208);
+    font-size: 9px;
+  }
+
+  /* -------------------------------------about page css end here --------------------------------- */
+
+  /*----------------------------------- services page css start here-------------------------------  */
+  #services {
+    border-radius: 5px;
+    padding: 40px 15px;
+    margin-bottom: 15px;
+  }
+
+  .services-list div h2 {
+    color: white;
+    font-size: 15px;
+  }
+  .services-list .para {
+    font-size: 13px;
+  }
+
+  .services-list,
+  h5 {
+    padding: 1px;
+    font-size: 15px;
+  }
+
+  .services-list div {
+    font-size: 19px;
+  }
+  .react-link {
+    font-size: 2px;
+  }
+
+  .services-list .letter-space-react p,
+  h5 {
+    padding: 2px;
+  }
+  .services-list h5 {
+    color: rgb(155, 5, 90);
+    font-size: 16px;
+  }
+
+  .sub-title {
+    font-size: 23px;
+  }
+  .row {
+    margin-top: 10px;
+  }
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+    font-size: 20px;
+  }
+  .about-col-1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .about-col-1 h1 {
+    margin-left: 50px;
+  }
+
+  /*----------------------------------- services page css end here --------------------------------- */
+
+  /*-------------------------------my work portfolio design start here ----------------------------  */
+
+  .layer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .layer h5 {
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  .layer p {
+    padding-left: 15px;
+    font-size: 10px;
+  }
+  .work {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  .btn-project {
+    margin-left: 55px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: rgb(237, 9, 9);
+    color: white;
+    border: 1px solid green;
+    font-size: 8px;
+    padding: 2px;
+  }
+
+  /*--------------------------------- my work end here----------------------------  */
+
+  /*---------------------------- contact us desin start here ----------------------*/
+  .contact-title {
+    font-size: 23px;
+    margin-left: 70px;
+  }
+
+  .contact-left {
+    font-size: 15x;
+    line-height: 1.3;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+
+  .contact-right {
+    flex-basis: 50%;
+    margin-left: 10px;
+  }
+
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+
+  form input {
+    font-size: 14px;
+  }
+
+  /*------------------- insta nd social media logo -------------------------  */
+
+  .fa-brands {
+    font-size: 33px;
+  }
+
+  /*---------------- footer start here----------------  */
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  /* --------------------useful linke-----------------  */
+  .contact-left h1 {
+    margin-top: 40px;
+  }
+  .useful_linke li a {margin-left: 10px;
+    text-decoration: none;
+    margin-left: 90px;
+  }
+  .useful_linke li {
+    margin-top: 16px;
+    list-style: none;
+  }
+  .map {
+    margin-top: 15px;
+    margin-left: 1px;
+    margin-right: 2px;
+  }
+
+  /*------------------------- cv button design-----------------  */
+
+  .portfolio-link {
+    font-size: 10px;
+    color: #167dd0;
+  }
+
+  .copyright i {
+    font-size: 18px;
+    color: #167dd0;
+  }
+  /*-------
+  ----9--------- submit data button ------------- */
+
+  .btn-submit {
+    margin-left: 95px;
+    padding: 7px 25px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 35px;
+  }
+  #msg {
+    color: green;
+    margin-top: -200px;
+    display: block;
+  }
+  
+
+}
+
+/* ---------------message  setup------------- */
+
+#msg {
+  color: green;
+  margin-top: -100px;
+  display: block;
+}
