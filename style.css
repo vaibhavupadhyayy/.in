@@ -301,7 +301,7 @@ nav ul li :hover {
 /* ---------------------------------------about me section--------------------------------------------- */
 .onto {
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 10px;
   letter-spacing: 1.3px;
   padding-left: 20px;
@@ -320,7 +320,7 @@ nav ul li :hover {
   background-image: url(myphoto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 93vh;
 }
 
 .about-col-1 h1 {
@@ -332,12 +332,12 @@ nav ul li :hover {
   margin-left: 5px;
   width: 49%;
   border-radius: 5px;
-  height: 90vh;
+  height: 93vh;
   cursor: pointer;
 }
 
 .sub-title {
-  font-size: 28px;
+  font-size: 18px;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -355,7 +355,7 @@ nav ul li :hover {
 .tab-links {
   margin-left: 20px;
   margin-right: 30px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   cursor: pointer;
   position: relative;
@@ -385,15 +385,15 @@ nav ul li :hover {
 
 .tab-contents ul li {
   list-style: none;
-  padding-left: 15px;
+  padding-left: 13px;
   margin: 13px 0;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .tab-contents ul li span {
   color: rgb(140, 3, 8);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -507,7 +507,7 @@ h5 {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-  height: 87vh;
+  height: 90vh;
   background-color: white;
   color: black;
 }
@@ -543,7 +543,7 @@ h5 {
 .layer p {
   padding-left: 20px;
   padding-right: 10px;
-  font-size: 13px;
+  font-size: 11px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -555,7 +555,7 @@ h5 {
   background-color: rgb(231, 4, 4);
   color: rgb(244, 244, 245);
   border: 1px solid green;
-  font-size: 11px;
+  font-size: 10px;
   padding: 2px 2px;
 }
 .btn-project:hover {
