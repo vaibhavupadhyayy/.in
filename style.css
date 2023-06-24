@@ -265,8 +265,15 @@ nav ul li :hover {
 }
 
 .PORT {
- color:white;
+    height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  border: 1px solid white;
   font-size: 15px;
+  letter-spacing: 0.;
+  background-image: url(logo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
  
 }
 .cvbutton {
