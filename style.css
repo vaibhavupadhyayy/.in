@@ -737,65 +737,6 @@ nav .fas {
     font-family: sans-serif;
   }
 
-  /*---------------------- border animaion for project --------------- */
-  #about-border {
-    border: 3px solid rgb(235, 4, 231);
-    animation: mymove 2s infinite;
-  }
-  @keyframes mymove {
-    0% {
-      border-color: rgb(253, 4, 103);
-    }
-    20% {
-      border-color: rgb(219, 238, 5);
-    }
-    40% {
-      border-color: rgb(8, 8, 214);
-    }
-    60% {
-      border-color: rgb(13, 245, 5);
-    }
-    80% {
-      border-color: rgb(243, 7, 152);
-    }
-    80% {
-      border-color: rgb(251, 9, 9);
-    }
-    100% {
-      border-color: rgb(2, 218, 103);
-    }
-  }
-  #myDIV {
-    border: 3px solid rgb(235, 4, 231);
-    animation: mymove 1s infinite;
-  }
-
-  @keyframes mymove {
-    0% {
-      border-color: rgb(253, 4, 103);
-    }
-    20% {
-      border-color: rgb(219, 238, 5);
-    }
-    40% {
-      border-color: rgb(8, 8, 214);
-    }
-    60% {
-      border-color: rgb(13, 245, 5);
-    }
-    80% {
-      border-color: rgb(243, 7, 152);
-    }
-    80% {
-      border-color: rgb(251, 9, 9);
-    }
-    100% {
-      border-color: rgb(2, 218, 103);
-    }
-  }
-
-  /*---------------------- border animaion for project end --------------- */
-
   /* ----------------------------Home page css start -------------------- */
   .letter_spa {
     line-height: 65px;
@@ -828,7 +769,7 @@ nav .fas {
     font-size: 14px;
     color:black;
     padding: 6px;
-    background-color: rgb(113, 211, 1);
+    background-color: rgb(241, 7, 57);
     border: 1px solid rgb(12, 14, 12);
     border-radius: 2px;
   }
@@ -947,11 +888,11 @@ nav .fas {
   }
 
   .services-list div h2 {
-    color: white;
-    font-size: 15px;
+    color: black;
+    font-size: 16px;
   }
   .services-list .para {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .services-list,
@@ -1010,7 +951,7 @@ nav .fas {
   }
   .layer p {
     padding-left: 15px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .work {
     border-radius: 5px;
