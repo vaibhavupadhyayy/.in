@@ -8,7 +8,7 @@ html {
 /* ----------------------animiation fot about section-------------------------  */
 
 #about-border {
-  border: 3px solid rgb(235, 4, 231);
+  border: 2px solid rgb(235, 4, 231);
   animation: mymove 2s infinite;
 }
 
@@ -33,7 +33,7 @@ html {
   }
 }
 #myDIV {
-  border: 4px solid rgb(235, 4, 231);
+  border: 2px solid rgb(235, 4, 231);
   animation: mymove 1s infinite;
 }
 
@@ -61,7 +61,7 @@ html {
 /*---------------------- border animaion for project --------------- */
 
 #myDIV {
-  border: 4px solid rgb(235, 4, 231);
+  border: 2px solid rgb(235, 4, 231);
   animation: mymove 1s infinite;
 }
 
@@ -284,11 +284,10 @@ nav ul li :hover {
   font-size: 16px;
   color: white;
   padding: 15px;
-  color: rgb(3, 1, 1);
   padding: 6px;
-  background-color: rgb(221, 215, 215);
+  background-color: rgb(238, 1, 92);
   border: 1px solid rgb(9, 2, 9);
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .cvbutton:hover {
   background-color: rgb(246, 2, 14);
@@ -327,7 +326,7 @@ nav ul li :hover {
   background-image: url(myphoto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 93vh;
+  height: 83vh;
 }
 
 .about-col-1 h1 {
@@ -339,7 +338,7 @@ nav ul li :hover {
   margin-left: 5px;
   width: 49%;
   border-radius: 5px;
-  height: 93vh;
+  height: 83vh;
   cursor: pointer;
 }
 
@@ -417,7 +416,7 @@ nav ul li :hover {
 /* -------------------------------------------------services start  css --------------------- --------------------------- */
 
 #services {
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 40px 60px;
   margin-bottom: 30px;
   /* opacity: 0.8; */
@@ -514,7 +513,7 @@ h5 {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-  height: 90vh;
+  height: 83vh;
   background-color: white;
   color: black;
 }
@@ -829,8 +828,8 @@ nav .fas {
     font-size: 14px;
     color:black;
     padding: 6px;
-    background-color: rgb(221, 215, 215);
-    border: 1px solid rgb(3, 194, 16);
+    background-color: rgb(113, 211, 1);
+    border: 1px solid rgb(12, 14, 12);
     border-radius: 2px;
   }
   /*-------------- for responsive menu top icons-------------------------- */
@@ -889,7 +888,7 @@ nav .fas {
   }
 
   .sub-title {
-    font-size: 20px;
+    font-size: 26px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 15px;
