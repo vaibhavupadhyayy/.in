@@ -770,7 +770,7 @@ nav .fas {
     color:black;
     padding: 6px;
     background-color: rgb(241, 7, 57);
-    border: 1px solid rgb(12, 14, 12);
+    border: 1px solid #ffffff;
     border-radius: 2px;
   }
   /*-------------- for responsive menu top icons-------------------------- */
@@ -888,11 +888,12 @@ nav .fas {
   }
 
   .services-list div h2 {
+    font-family:sans-serif;
     color: black;
     font-size: 16px;
   }
   .services-list .para {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .services-list,
@@ -951,7 +952,7 @@ nav .fas {
   }
   .layer p {
     padding-left: 15px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .work {
     border-radius: 5px;
