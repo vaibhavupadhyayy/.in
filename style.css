@@ -5,134 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ----------------------animiation fot about section-------------------------  */
-
-#about-border {
-  border: 2px solid rgb(235, 4, 231);
-  animation: mymove 2s infinite;
-}
-
-@keyframes mymove {
-  0% {
-    border-color: rgb(253, 4, 103);
-  }
-  20% {
-    border-color: rgb(219, 238, 5);
-  }
-  40% {
-    border-color: rgb(8, 8, 214);
-  }
-  60% {
-    border-color: rgb(10, 227, 3);
-  }
-  80% {
-    border-color: rgb(243, 7, 152);
-  }
-  80% {
-    border-color: rgb(251, 9, 9);
-  }
-}
-#myDIV {
-  border: 2px solid rgb(235, 4, 231);
-  animation: mymove 1s infinite;
-}
-
-@keyframes mymove {
-  0% {
-    border-color: rgb(253, 4, 103);
-  }
-  20% {
-    border-color: rgb(219, 238, 5);
-  }
-  40% {
-    border-color: rgb(8, 8, 214);
-  }
-  60% {
-    border-color: rgb(10, 227, 3);
-  }
-  80% {
-    border-color: rgb(243, 7, 152);
-  }
-  80% {
-    border-color: rgb(251, 9, 9);
-  }
-}
-
-/*---------------------- border animaion for project --------------- */
-
-#myDIV {
-  border: 2px solid rgb(235, 4, 231);
-  animation: mymove 1s infinite;
-}
-
-@keyframes mymove {
-  0% {
-    border-color: rgb(253, 4, 103);
-  }
-  20% {
-    border-color: rgb(251, 8, 16);
-  }
-  40% {
-    border-color: rgb(8, 8, 214);
-  }
-  60% {
-    border-color: rgb(10, 227, 3);
-  }
-  80% {
-    border-color: rgb(4, 193, 162);
-  }
-}
-
-
-@keyframes test {
-  0% {
-    color: rgba(54, 0, 231, 0.748);
-  }
-
-  20% {
-    color: black;
-  }
-
-  50% {
-    color: rgb(244, 0, 219);
-  }
-  60% {
-    color: rgb(0, 223, 186);
-  }
-
-  100% {
-    color: rgb(217, 3, 3);
-  }
-}
-
-.test {
-  animation-name: test;
-  animation-duration:2s;
-  animation-iteration-count: infinite;
-}
-
-/*------------- for project animation text ------------------ */
-
-.project-ani {
-  animation-name: project;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes project {
-  0% {
-    color: yellow;
-  }
-  25% {
-    color: rgb(40, 9, 218);
-  }
-  50% {
-    color: rgb(13, 223, 6);
-  }
-  100% {
-    color: rgb(243, 7, 81);
-  }
-}
 /* ----------------------for project deatails Animation ----------------- */
 .project-link-animation {
   animation-name: project1;
@@ -157,9 +29,7 @@ html {
   padding: 0;
 }
 body {
-  
-  background:  #fff;
-  /* background: #ffffff; */
+  background: #fff;
   color: black;
   font-family: sans-serif;
 }
@@ -177,9 +47,8 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
   background: black;
-  padding: 10px 4%;
-font-family: sans-serif;
-
+  padding: 10px 5%;
+  font-family: sans-serif;
 }
 
 nav ul li {
@@ -195,45 +64,44 @@ nav ul li a {
 }
 
 nav ul li :hover {
-  color: rgb(212, 5, 5);
+  color: rgb(126, 6, 6);
 }
 
 .header-text {
-  margin-top: 15%;
-  margin-left: 13%;
+  margin-top: 14%;
+  margin-left: 11%;
 }
 
 .header-text h3 {
   color: #ff004f;
   font-size: 50px;
 }
-
-
-/*------------------------------------- letterr space  for name and postion home page------------------------------------------ */
-
-.letter_spa {
-  font-weight: 600;
-  line-height: 70px;
-  font-size: 37px;
-  left: 2px;
-  margin-top: 3px;
-}
-
 .PORT {
-    height: 46px;
+  height: 46px;
   width: 46px;
   border-radius: 50%;
   border: 1px solid white;
   font-size: 15px;
-  letter-spacing: 0.;
+  letter-spacing: 0;
   background-image: url(logo.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
- 
 }
+
+/*------------------------------------- letterr space  for name and postion home page------------------------------------------ */
+
+.letter_spa {
+  font-weight: 700;
+  line-height: 80px;
+  font-size: 37px;
+  left: 2px;
+  margin-top: 4px;
+}
+
+
 .cvbutton {
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 30px;
   width: fit-content;
   border: 2px solid #146633;
   padding: 9px 20px;
@@ -241,7 +109,6 @@ nav ul li :hover {
   color: #0a0808;
   text-decoration: none;
   transition: background 0.75s;
- 
 }
 .cvbutton:hover {
   background: #ff004f;
@@ -276,9 +143,9 @@ nav ul li :hover {
 
 .about-col-1 {
   width: 43%;
-  border: 5px double rgb(2, 146, 212);
+  border: 6px double rgb(233, 2, 79);
   background: #ffffff;
-  border-radius: 6px;
+  border-radius: 5px;
   background-image: url(myphoto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -293,14 +160,12 @@ nav ul li :hover {
 .about-col-2 {
   margin-left: 5px;
   width: 49%;
-  border-radius: 6px;
-  border: 5px double rgb(2, 146, 212);
+  border-radius: 5px;
+  border: 6px double rgb(233, 2, 79);
   background: #ffffff;
   height: 83vh;
   cursor: pointer;
-  
 }
-
 
 .sub-title {
   font-size: 25px;
@@ -382,7 +247,6 @@ nav ul li :hover {
   margin-bottom: 30px;
   /* opacity: 0.8; */
   padding: 10px 4%;
-
 }
 
 .services-list {
@@ -390,7 +254,6 @@ nav ul li :hover {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 35px;
   margin-top: 50px;
-
 }
 
 .services-list img {
@@ -468,7 +331,6 @@ h5 {
   grid-gap: 40px;
   margin-top: 60px;
   padding: 10px 4%;
-  
 }
 .work:hover {
   transform: translate(-1px);
@@ -480,9 +342,8 @@ h5 {
   overflow: hidden;
   height: 83vh;
   color: black;
-  border: 5px double #0b2849;
-background: #ffffff;
-
+  border: 6px double #0b2849;
+  background: #ffffff;
 }
 
 .work :hover {
@@ -606,7 +467,7 @@ p {
   transform: translate(-5px);
 }
 
-/* ---------------------------------cv button design---------------------------  */
+/* ---------------------------------button design---------------------------  */
 
 .btn-submit {
   margin-left: 200px;
@@ -669,7 +530,7 @@ form textarea {
   width: 100%;
   text-align: center;
   padding: 15px 0;
-  background-color:black;
+  background-color: black;
   border-radius: 3px;
   margin-top: 10px;
   font-size: 18px;
@@ -684,7 +545,6 @@ form textarea {
   font-size: 25px;
   color: rgb(72, 39, 160);
 }
-
 
 nav.fa {
   display: none;
@@ -707,38 +567,39 @@ nav .fas {
   /* ----------------------------Home page css start -------------------- */
   .letter_spa {
     line-height: 65px;
-    font-size: 25px;
+    font-size: 26px;
     left: 2px;
     margin-top: 3px;
   }
   .header-text {
     margin-top: 62%;
-    margin-left: 5%;
+    margin-left: 6%;
   }
   nav .fas {
     display: block;
     font-size: 30px;
   }
   .header-text p {
-    font-size: 28px;
+    font-size: 27px;
   }
 
   .header-text h3 {
-    font-size: 30px;
+    font-size: 34px;
   }
   .header-text span {
     font-size: 27px;
   }
   /* -------------------.cvbutton -------------- */
+
   .cvbutton {
     margin-left: 5px;
     margin-top: 36px;
     font-size: 14px;
-    color:black;
+    color: white;
     padding: 6px;
     background-color: rgb(241, 7, 57);
-    border: 1px solid #ffffff;
-    border-radius: 2px;
+    border: 1px solid #0c4e0c;
+    border-radius: 3px;
   }
   /*-------------- for responsive menu top icons-------------------------- */
   nav ul {
@@ -759,7 +620,7 @@ nav .fas {
     display: block;
     margin: 25px;
   }
-  .fa-sharp{
+  .fa-sharp {
     color: white;
   }
   /*-------------------------------------responsive menu end------------------------------  */
@@ -796,10 +657,10 @@ nav .fas {
   }
 
   .sub-title {
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
     color: black;
   }
 
@@ -811,7 +672,6 @@ nav .fas {
     color: white;
     font-size: 14px;
   }
-
 
   .about-col-1 {
     width: 100%;
@@ -855,7 +715,7 @@ nav .fas {
   }
 
   .services-list div h2 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     color: black;
     font-size: 16px;
   }
@@ -984,7 +844,8 @@ nav .fas {
   .contact-left h1 {
     margin-top: 40px;
   }
-  .useful_linke li a {margin-left: 10px;
+  .useful_linke li a {
+    margin-left: 10px;
     text-decoration: none;
     margin-left: 90px;
   }
@@ -1027,8 +888,6 @@ nav .fas {
     margin-top: -200px;
     display: block;
   }
-  
-
 }
 
 /* ---------------message  setup------------- */
