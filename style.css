@@ -83,41 +83,6 @@ html {
   }
 }
 
-@keyframes example {
-  0% {
-    color: red;
-  }
-  10% {
-    color: rgb(163, 241, 7);
-  }
-  20% {
-    color: rgb(5, 219, 201);
-  }
-
-  45% {
-    color: rgb(201, 3, 40);
-  }
-  50% {
-    color: blue;
-  }
-  60% {
-    color: rgb(67, 247, 1);
-  }
-
-  80% {
-    color: rgb(255, 0, 68);
-  }
-
-  100% {
-    color: rgb(242, 6, 171);
-  }
-}
-/* for name vaibhav animation  */
-.Animated {
-  animation-name: example;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
 
 @keyframes test {
   0% {
@@ -192,20 +157,13 @@ html {
   padding: 0;
 }
 body {
-  /* background-color:#171515; */
-  background: #ffffff;
+  
+  background:  #fff;
+  /* background: #ffffff; */
   color: black;
   font-family: sans-serif;
 }
-/*------------------------------------- letterr space  for name and postion home page------------------------------------------ */
 
-.letter_spa {
-  font-weight: 600;
-  line-height: 70px;
-  font-size: 30px;
-  left: 2px;
-  margin-top: 3px;
-}
 #header {
   width: 100%;
   height: 100vh;
@@ -213,17 +171,12 @@ body {
   cursor: pointer;
 }
 
-.container {
-  /* padding: 10px 4%; */
-
-}
-
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: black;
+  background: black;
   padding: 10px 4%;
 font-family: sans-serif;
 
@@ -238,11 +191,11 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 nav ul li :hover {
-  color: rgb(235, 11, 37);
+  color: rgb(212, 5, 5);
 }
 
 .header-text {
@@ -250,18 +203,20 @@ nav ul li :hover {
   margin-left: 13%;
 }
 
-.header-text h1 {
-  font-size: 50px;
-  margin-top: 30px;
-}
-
 .header-text h3 {
-  color: black;
-  font-size: 40px;
+  color: #ff004f;
+  font-size: 50px;
 }
 
-.header-text h1 span {
-  color: red;
+
+/*------------------------------------- letterr space  for name and postion home page------------------------------------------ */
+
+.letter_spa {
+  font-weight: 600;
+  line-height: 70px;
+  font-size: 37px;
+  left: 2px;
+  margin-top: 3px;
 }
 
 .PORT {
@@ -277,20 +232,19 @@ nav ul li :hover {
  
 }
 .cvbutton {
-  margin-top: 40px;
-  list-style: none;
-  text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  color: white;
-  padding: 15px;
-  padding: 6px;
-  background-color: rgb(238, 1, 92);
-  border: 1px solid rgb(9, 2, 9);
-  border-radius: 4px;
+  margin-top: 12px;
+  width: fit-content;
+  border: 2px solid #146633;
+  padding: 9px 20px;
+  border-radius: 6px;
+  color: #0a0808;
+  text-decoration: none;
+  transition: background 0.75s;
+ 
 }
 .cvbutton:hover {
-  background-color: rgb(246, 2, 14);
+  background: #ff004f;
   color: white;
 }
 .button {
@@ -322,7 +276,9 @@ nav ul li :hover {
 
 .about-col-1 {
   width: 43%;
-  border-radius: 5px;
+  border: 5px double rgb(2, 146, 212);
+  background: #ffffff;
+  border-radius: 6px;
   background-image: url(myphoto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -337,15 +293,20 @@ nav ul li :hover {
 .about-col-2 {
   margin-left: 5px;
   width: 49%;
-  border-radius: 5px;
+  border-radius: 6px;
+  border: 5px double rgb(2, 146, 212);
+  background: #ffffff;
   height: 83vh;
   cursor: pointer;
+  
 }
 
+
 .sub-title {
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   margin-bottom: 15px;
   color: black;
 }
@@ -365,7 +326,7 @@ nav ul li :hover {
   font-weight: bold;
   cursor: pointer;
   position: relative;
-  color: rgb(218, 2, 63);
+  color: rgb(0, 0, 0);
 }
 
 .tab-links:hover {
@@ -416,11 +377,12 @@ nav ul li :hover {
 /* -------------------------------------------------services start  css --------------------- --------------------------- */
 
 #services {
-  border-radius: 5px;
+  border-radius: 6px;
   padding: 40px 60px;
   margin-bottom: 30px;
   /* opacity: 0.8; */
   padding: 10px 4%;
+
 }
 
 .services-list {
@@ -428,6 +390,7 @@ nav ul li :hover {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 35px;
   margin-top: 50px;
+
 }
 
 .services-list img {
@@ -439,13 +402,14 @@ nav ul li :hover {
 .services-list div {
   cursor: pointer;
   font-family: "Courier New", Courier, monospace;
-  border: 2px solid #1b6a28;
+  border: 7px double #148319;
+  background: #ffffff;
   background-blend-mode: lighten;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 12px;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 4px;
   transition: background 0.5s, transform 0.5s;
   height: 70vh;
 }
@@ -504,6 +468,7 @@ h5 {
   grid-gap: 40px;
   margin-top: 60px;
   padding: 10px 4%;
+  
 }
 .work:hover {
   transform: translate(-1px);
@@ -514,12 +479,13 @@ h5 {
   position: relative;
   overflow: hidden;
   height: 83vh;
-  background-color: white;
   color: black;
+  border: 5px double #0b2849;
+background: #ffffff;
+
 }
 
 .work :hover {
-  background-color: rgb(241, 232, 232);
   transform: translate(-2px);
 }
 
@@ -648,13 +614,15 @@ p {
   font-size: 15px;
   margin-top: 10px;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-bottom: 50px;
   border-radius: 1px solid green;
+  background-color: #ff004f;
+  color: white;
 }
 
 .btn-submit:hover {
-  background-color: red;
+  background-color: rgb(247, 1, 54);
   color: white;
 }
 
@@ -710,12 +678,11 @@ form textarea {
 
 .copyright i {
   font-size: 25px;
-
-  color: rgb(233, 2, 29);
+  color: rgb(44, 2, 233);
 }
 .copyright i:hover {
   font-size: 25px;
-  color: rgb(0, 0, 241);
+  color: rgb(72, 39, 160);
 }
 
 
