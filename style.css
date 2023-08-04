@@ -57,7 +57,7 @@ nav ul li a {
   font-size: 22px;
 }
 nav ul li :hover {
-  color: rgb(126, 6, 6);
+  color: rgb(238, 5, 5);
 }
 .header-text {
   margin-top: 14%;
@@ -501,7 +501,7 @@ nav .fas {
   }
   .header-text {
     margin-top: 62%;
-    margin-left: 6%;
+    margin-left: 9%;
   }
   nav .fas {
     display: block;
