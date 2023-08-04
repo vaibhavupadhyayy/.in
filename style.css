@@ -132,7 +132,7 @@ nav ul li :hover {
   background-image: url(myphoto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 82vh;
+  height: 84vh;
 }
 .about-col-1 h1 {
   margin-left: 100px;
@@ -145,7 +145,7 @@ nav ul li :hover {
   border-radius: 5px;
   border: 6px double rgb(158, 2, 67);
   background: #fff;
-  height: 82vh;
+  height: 84vh;
   cursor: pointer;
 }
 .sub-title {
