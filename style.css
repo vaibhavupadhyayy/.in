@@ -29,7 +29,8 @@ html {
   padding: 0;
 }
 body {
-  background: #fff;
+  /* background: #fff; */
+  background: #f6f6f6;
   color: black;
   font-family: sans-serif;
 }
@@ -98,7 +99,6 @@ nav ul li :hover {
   margin-top: 4px;
 }
 
-
 .cvbutton {
   display: inline-block;
   margin-top: 30px;
@@ -143,13 +143,13 @@ nav ul li :hover {
 
 .about-col-1 {
   width: 43%;
-  border: 6px double rgb(233, 2, 79);
-  background: #ffffff;
+  border: 6px double rgb(88, 235, 2);
+  background: #fff;
   border-radius: 5px;
   background-image: url(myphoto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 83vh;
+  height: 81vh;
 }
 
 .about-col-1 h1 {
@@ -161,9 +161,9 @@ nav ul li :hover {
   margin-left: 5px;
   width: 49%;
   border-radius: 5px;
-  border: 6px double rgb(233, 2, 79);
-  background: #ffffff;
-  height: 83vh;
+  border: 6px double rgb(88, 235, 2);
+  background: #fff;
+  height: 81vh;
   cursor: pointer;
 }
 
@@ -265,8 +265,8 @@ nav ul li :hover {
 .services-list div {
   cursor: pointer;
   font-family: "Courier New", Courier, monospace;
-  border: 7px double #148319;
-  background: #ffffff;
+  border: 7px double #176e1c;
+  background: #fff;
   background-blend-mode: lighten;
   background-size: cover;
   background-repeat: no-repeat;
@@ -343,7 +343,7 @@ h5 {
   height: 83vh;
   color: black;
   border: 6px double #0b2849;
-  background: #ffffff;
+  background: #fff;
 }
 
 .work :hover {
@@ -412,13 +412,16 @@ p {
 /* ------------------------contact page here ---------------------- */
 
 #contact {
-  border-radius: 10px;
+  margin-top: 30px;
+  /* background:white; */
+  color: rgb(3, 3, 3);
+  cursor: pointer;
 }
 
 .contact-title {
   font-size: 25px;
   margin-left: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-weight: bolder;
 }
 .onti {
@@ -444,7 +447,7 @@ p {
 }
 
 .contact-left p i {
-  color: rgb(6, 123, 25);
+  color: red;
   margin-right: 15px;
   font-size: 30px;
 }
@@ -457,7 +460,7 @@ p {
   text-decoration: none;
   margin-top: 30px;
   margin-right: 15px;
-  color: rgb(3, 11, 158);
+  color: red;
   display: inline-block;
   transition: transform(0.5s);
 }
@@ -477,9 +480,9 @@ p {
   cursor: pointer;
   border-radius: 5px;
   margin-bottom: 50px;
-  border-radius: 1px solid green;
-  background-color: #ff004f;
-  color: white;
+  border-radius: 1px solid rgb(2, 207, 2);
+  /* background-color: #ff004f; */
+  color: rgb(8, 8, 8);
 }
 
 .btn-submit:hover {
@@ -529,11 +532,10 @@ form textarea {
 .copyright {
   width: 100%;
   text-align: center;
-  padding: 15px 0;
+  padding: 25px 0;
   background-color: black;
-  border-radius: 3px;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 17px;
   color: white;
 }
 
@@ -885,7 +887,7 @@ nav .fas {
   }
   #msg {
     color: green;
-    margin-top: -200px;
+    margin-top: -100px;
     display: block;
   }
 }
@@ -894,6 +896,6 @@ nav .fas {
 
 #msg {
   color: green;
-  margin-top: -100px;
+  margin-top: -70px;
   display: block;
 }
