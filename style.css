@@ -494,28 +494,29 @@ nav .fas {
   }
   /* ----------------------------Home page css start here -------------------- */
   .letter_spa {
-    line-height: 65px;
+    line-height: 70px;
     font-size: 26px;
     left: 2px;
     margin-top: 3px;
   }
   .header-text {
     margin-top: 62%;
-    margin-left: 9%;
+    margin-left: 5%;
   }
   nav .fas {
     display: block;
     font-size: 30px;
   }
   .header-text p {
-    font-size: 31px;
+    font-size: 32px;
+    margin-left: 5px;
   }
 
   .header-text h3 {
-    font-size: 34px;
+    font-size: 36px;
   }
   .header-text span {
-    font-size: 27px;
+    font-size: 31px;
   }
   /* --------------------------------Downlod cv button ----------------------- */
   .cvbutton {
