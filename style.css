@@ -1,17 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
-
-/*----------------  for home page animated text--------------  */
 html {
   scroll-behavior: smooth;
 }
-
-/* ----------------------for project deatails Animation ----------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background: #fff; */
+  background: #f6f6f6;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* ----------------------------------- project deatails Animation ------------------------ */
 .project-link-animation {
   animation-name: project1;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-
 @keyframes project1 {
   0% {
     color: rgb(251, 0, 100);
@@ -23,25 +30,14 @@ html {
     color: rgb(9, 220, 13);
   }
 }
-
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  /* background: #fff; */
-  background: #f6f6f6;
-  color: black;
-  font-family: sans-serif;
-}
-
+/*------------------------------------ Home page css start here  -------------------------------------*/
+/*----------------------------------------- Header style start here-----------------------------  */
 #header {
   width: 100%;
   height: 100vh;
   background-image: url();
   cursor: pointer;
 }
-
 nav {
   display: flex;
   align-items: center;
@@ -49,34 +45,29 @@ nav {
   flex-wrap: wrap;
   background: black;
   padding: 10px 5%;
-  font-family: sans-serif;
 }
-
 nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
 }
-
 nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 22px;
 }
-
 nav ul li :hover {
   color: rgb(126, 6, 6);
 }
-
 .header-text {
   margin-top: 14%;
   margin-left: 11%;
 }
-
 .header-text h3 {
   color: #ff004f;
   font-size: 50px;
 }
+/* -----------------------------------for logo in navbar ----------------------------------- */
 .PORT {
   height: 46px;
   width: 46px;
@@ -88,9 +79,7 @@ nav ul li :hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/*------------------------------------- letterr space  for name and postion home page------------------------------------------ */
-
+/*------------------------------------- letter space between name and postion home page-------------------------------- */
 .letter_spa {
   font-weight: 700;
   line-height: 80px;
@@ -98,7 +87,7 @@ nav ul li :hover {
   left: 2px;
   margin-top: 4px;
 }
-
+/* --------------------------------download cv button --------------------------------- */
 .cvbutton {
   display: inline-block;
   margin-top: 30px;
@@ -114,18 +103,13 @@ nav ul li :hover {
   background: #ff004f;
   color: white;
 }
-.button {
-  background-color: rgb(192, 38, 38);
-}
-
-/*------------------------------------------about page  css start here----------------- ----------------- */
-
+/*-------------------------------about page css start here------------------------------- */
 #about {
   margin-top: 0px;
   margin-bottom: 30px;
   padding: 10px 4%;
 }
-/* ---------------------------------------about me section--------------------------------------------- */
+/* ---------------------------------------about me style--------------------------------------------- */
 .onto {
   color: black;
   font-size: 14px;
@@ -134,39 +118,36 @@ nav ul li :hover {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+/*====================================== for image left design======================================  */
 .about-col-1 {
   width: 43%;
-  border: 6px double rgb(88, 235, 2);
+  border: 6px double rgb(158, 2, 67);
   background: #fff;
   border-radius: 5px;
   background-image: url(myphoto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 81vh;
+  height: 82vh;
 }
-
 .about-col-1 h1 {
   margin-left: 100px;
   font-size: 19px;
 }
-
+/*------------------------------------- for right about me  design -------------------------------------*/
 .about-col-2 {
   margin-left: 5px;
   width: 49%;
   border-radius: 5px;
-  border: 6px double rgb(88, 235, 2);
+  border: 6px double rgb(158, 2, 67);
   background: #fff;
-  height: 81vh;
+  height: 82vh;
   cursor: pointer;
 }
-
 .sub-title {
   font-size: 25px;
   text-align: center;
@@ -175,7 +156,6 @@ nav ul li :hover {
   margin-bottom: 15px;
   color: black;
 }
-
 .tab-titles {
   display: flex;
   color: rgb(17, 6, 6);
@@ -183,7 +163,6 @@ nav ul li :hover {
   padding-left: 10px;
   padding-right: 20px;
 }
-
 .tab-links {
   margin-left: 20px;
   margin-right: 30px;
@@ -193,11 +172,9 @@ nav ul li :hover {
   position: relative;
   color: rgb(0, 0, 0);
 }
-
 .tab-links:hover {
   color: black;
 }
-
 .tab-links::after {
   content: "";
   width: 0;
@@ -208,28 +185,23 @@ nav ul li :hover {
   bottom: -8px;
   transition: 0.5s;
 }
-
 .active-link.active-link::after {
   width: 50%;
 }
-
-/*----------------------------------- skills section------------------------------------------  */
-
+/*----------------------------------- skills section css------------------------------------------  */
 .tab-contents ul li {
   list-style: none;
   padding-left: 13px;
-  margin: 13px 0;
+  margin-bottom: 7px;
   color: black;
   font-size: 16px;
 }
-
 .tab-contents ul li span {
   color: rgb(140, 3, 8);
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
 }
-
 .tab-contents {
   display: none;
   margin-left: 20px;
@@ -238,24 +210,20 @@ nav ul li :hover {
 .tab-contents.active-tab {
   display: block;
 }
-
+/* -----------------------------------------------------about us css end-----------------------------------------------------  */
 /* -------------------------------------------------services start  css --------------------- --------------------------- */
-
 #services {
   border-radius: 6px;
   padding: 40px 60px;
   margin-bottom: 30px;
-  /* opacity: 0.8; */
   padding: 10px 4%;
 }
-
 .services-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 35px;
   margin-top: 50px;
 }
-
 .services-list img {
   height: 25vh;
   width: 100%;
@@ -264,7 +232,6 @@ nav ul li :hover {
 }
 .services-list div {
   cursor: pointer;
-  font-family: "Courier New", Courier, monospace;
   border: 7px double #176e1c;
   background: #fff;
   background-blend-mode: lighten;
@@ -276,17 +243,13 @@ nav ul li :hover {
   transition: background 0.5s, transform 0.5s;
   height: 70vh;
 }
-
-/*------------------------ for red icon services--------------------------  */
-
+/*------------------------------------For services information css--------------------------  */
 .services-list .para {
   margin-top: 10px;
   letter-spacing: 0.7px;
-  font-size: 14px;
-  font-family: sans-serif;
+  font-size: 13px;
   color: black;
 }
-
 .services-list .letter-space-react p,
 h5 {
   padding: 2px;
@@ -295,7 +258,6 @@ h5 {
   margin-top: 10px;
   border-radius: 5px;
 }
-
 .services-list div h2 {
   color: black;
   font-size: 22px;
@@ -307,7 +269,6 @@ h5 {
   font-size: 15px;
   color: rgb(20, 20, 142);
 }
-
 .services-list div a {
   text-decoration: none;
   color: rgb(7, 5, 166);
@@ -318,13 +279,11 @@ h5 {
   color: rgb(155, 5, 90);
   font-size: 14px;
 }
-
 .services-list :hover {
   transform: translate(-5px);
 }
-
-/*--------------------------------my work portfolio---------------------------------- */
-
+/*------------------------------- Services style end here-------------------------------  */
+/*--------------------------------my work  css start---------------------------------- */
 .work-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -335,7 +294,6 @@ h5 {
 .work:hover {
   transform: translate(-1px);
 }
-
 .work {
   border-radius: 5px;
   position: relative;
@@ -345,11 +303,9 @@ h5 {
   border: 6px double #0b2849;
   background: #fff;
 }
-
 .work :hover {
   transform: translate(-2px);
 }
-
 .work img {
   border-radius: 3px;
   width: 100%;
@@ -357,7 +313,6 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .layer {
   cursor: pointer;
   width: 100%;
@@ -377,10 +332,7 @@ h5 {
   padding-left: 20px;
   padding-right: 10px;
   font-size: 11px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 .btn-project {
   margin-left: 55px;
   border-radius: 2px;
@@ -394,12 +346,10 @@ h5 {
 .btn-project:hover {
   background-color: rgb(200, 2, 42);
 }
-
 .layer h5,
 p {
   margin-top: 6px;
 }
-
 .layer h3 {
   margin-top: 10px;
   margin-left: 17px;
@@ -408,16 +358,14 @@ p {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
-/* ------------------------contact page here ---------------------- */
-
+/*----------------------------- my work  css end here ----------------------------- */
+/* ------------------------contact page css here ---------------------- */
 #contact {
   margin-top: 30px;
   /* background:white; */
   color: rgb(3, 3, 3);
   cursor: pointer;
 }
-
 .contact-title {
   font-size: 25px;
   margin-left: 10px;
@@ -427,7 +375,6 @@ p {
 .onti {
   font-size: 19px;
 }
-
 .contact-left {
   flex-basis: 40%;
   font-size: 19px;
@@ -436,16 +383,13 @@ p {
   margin-top: 50px;
   margin-left: 100px;
 }
-
 .contact-right {
   flex-basis: 48%;
   margin-top: 50px;
 }
-
 .contact-left p {
   margin-top: 15px;
 }
-
 .contact-left p i {
   color: red;
   margin-right: 15px;
@@ -455,7 +399,6 @@ p {
 .fa-brands {
   font-size: 40px;
 }
-
 .social-icons a {
   text-decoration: none;
   margin-top: 30px;
@@ -464,14 +407,11 @@ p {
   display: inline-block;
   transition: transform(0.5s);
 }
-
 .social-icons a :hover {
   color: rgb(8, 0, 255);
   transform: translate(-5px);
 }
-
-/* ---------------------------------button design---------------------------  */
-
+/* ---------------------------------submit button css design---------------------------  */
 .btn-submit {
   margin-left: 200px;
   padding: 7px 25px;
@@ -481,15 +421,13 @@ p {
   border-radius: 5px;
   margin-bottom: 50px;
   border-radius: 1px solid rgb(2, 207, 2);
-  /* background-color: #ff004f; */
-  color: rgb(8, 8, 8);
+  background-color: #e70611;
+  color: rgb(250, 250, 250);
 }
-
 .btn-submit:hover {
   background-color: rgb(247, 1, 54);
   color: white;
 }
-
 .contact-right form {
   width: 100%;
 }
@@ -506,9 +444,6 @@ form textarea {
   font-size: 14px;
   border-radius: 6px;
 }
-
-/*-------------------------------- sumit data button --------------------- */
-
 .useful_linke li a {
   text-decoration: none;
   margin-left: 30px;
@@ -523,12 +458,11 @@ form textarea {
   height: 25vh;
   margin-bottom: 40px;
 }
-
-/*------------------------------------ footer-------------------------------------  */
+/* --------------------------------Contact page css end here -------------------------------- */
+/*------------------------------------ footer css start here-------------------------------------  */
 .foot {
   margin-top: 15px;
 }
-
 .copyright {
   width: 100%;
   text-align: center;
@@ -538,7 +472,6 @@ form textarea {
   font-size: 17px;
   color: white;
 }
-
 .copyright i {
   font-size: 25px;
   color: rgb(44, 2, 233);
@@ -547,26 +480,19 @@ form textarea {
   font-size: 25px;
   color: rgb(72, 39, 160);
 }
-
 nav.fa {
   display: none;
 }
-
 nav .fas {
   display: none;
 }
-
-/* ---------------------------------------css for small screen  Responsive Design---------------------------------------- */
-
+/*--------------------------------------- Footer css end here---------------------------------------  */
+/* --------------------------------------- Responsive Design css for Mobile---------------------------------------- */
 @media only screen and (max-width: 600px) {
   html {
     scroll-behavior: smooth;
   }
-  .body {
-    font-family: sans-serif;
-  }
-
-  /* ----------------------------Home page css start -------------------- */
+  /* ----------------------------Home page css start here -------------------- */
   .letter_spa {
     line-height: 65px;
     font-size: 26px;
@@ -591,19 +517,16 @@ nav .fas {
   .header-text span {
     font-size: 27px;
   }
-  /* -------------------.cvbutton -------------- */
-
+  /* --------------------------------Downlod cv button ----------------------- */
   .cvbutton {
     margin-left: 5px;
     margin-top: 36px;
     font-size: 14px;
     color: white;
     padding: 6px;
-    background-color: rgb(241, 7, 57);
-    border: 1px solid #0c4e0c;
     border-radius: 3px;
   }
-  /*-------------- for responsive menu top icons-------------------------- */
+  /*--------------------------- for responsive menu top icons-------------------------- */
   nav ul {
     background-color: black;
     position: fixed;
@@ -638,7 +561,6 @@ nav .fas {
   /*---------------------about page css start here---------------------  */
 
   /* ------------------eduction gap in skill and other content ---------------------- */
-
   .tab-links {
     margin-left: 1px;
     margin-right: 20px;
@@ -657,7 +579,6 @@ nav .fas {
   .sub-title h1 {
     margin-right: 10px;
   }
-
   .sub-title {
     font-size: 28px;
     text-align: center;
@@ -665,7 +586,6 @@ nav .fas {
     margin-bottom: 7px;
     color: black;
   }
-
   .details h1 {
     font-size: 13px;
   }
@@ -674,7 +594,6 @@ nav .fas {
     color: white;
     font-size: 14px;
   }
-
   .about-col-1 {
     width: 100%;
     height: 45vh;
@@ -682,7 +601,6 @@ nav .fas {
     border-radius: 5px;
     background-image: url(myphoto.jpg);
   }
-
   .about-col-2 {
     flex-basis: 100%;
     height: 100%;
@@ -706,7 +624,6 @@ nav .fas {
     color: rgb(22, 125, 208);
     font-size: 9px;
   }
-
   /* -------------------------------------about page css end here --------------------------------- */
 
   /*----------------------------------- services page css start here-------------------------------  */
@@ -715,29 +632,24 @@ nav .fas {
     padding: 40px 15px;
     margin-bottom: 15px;
   }
-
   .services-list div h2 {
-    font-family: sans-serif;
     color: black;
     font-size: 16px;
   }
   .services-list .para {
     font-size: 15px;
   }
-
   .services-list,
   h5 {
     padding: 1px;
     font-size: 15px;
   }
-
   .services-list div {
     font-size: 19px;
   }
   .react-link {
     font-size: 2px;
   }
-
   .services-list .letter-space-react p,
   h5 {
     padding: 2px;
@@ -746,7 +658,6 @@ nav .fas {
     color: rgb(155, 5, 90);
     font-size: 16px;
   }
-
   .sub-title {
     font-size: 23px;
   }
@@ -765,7 +676,6 @@ nav .fas {
   .about-col-1 h1 {
     margin-left: 50px;
   }
-
   /*----------------------------------- services page css end here --------------------------------- */
 
   /*-------------------------------my work portfolio design start here ----------------------------  */
@@ -799,7 +709,6 @@ nav .fas {
     font-size: 8px;
     padding: 2px;
   }
-
   /*--------------------------------- my work end here----------------------------  */
 
   /*---------------------------- contact us desin start here ----------------------*/
@@ -807,7 +716,6 @@ nav .fas {
     font-size: 23px;
     margin-left: 70px;
   }
-
   .contact-left {
     font-size: 15x;
     line-height: 1.3;
@@ -815,34 +723,36 @@ nav .fas {
     margin-top: 50px;
     margin-left: 30px;
   }
-
+  .btn-submit {
+    margin-left: 95px;
+    padding: 7px 25px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 35px;
+  }
   .contact-right {
     flex-basis: 50%;
     margin-left: 30px;
   }
-
   .contact-left,
   .contact-right {
     flex-basis: 100%;
   }
-
   form input {
     font-size: 14px;
   }
-
-  /*------------------- insta nd social media logo -------------------------  */
-
+  /*----------------------- insta nd social media logo -------------------------  */
   .fa-brands {
     font-size: 33px;
   }
-
-  /*---------------- footer start here----------------  */
-
+  /*------------------------- footer css start here----------------  */
   .copyright {
     font-size: 12px;
   }
-
-  /* --------------------useful linke-----------------  */
+  /* ---------------------------useful linke css-----------------  */
   .contact-left h1 {
     margin-top: 40px;
   }
@@ -860,30 +770,13 @@ nav .fas {
     margin-left: 1px;
     margin-right: 2px;
   }
-
-  /*------------------------- cv button design-----------------  */
-
   .portfolio-link {
     font-size: 10px;
     color: #167dd0;
   }
-
   .copyright i {
     font-size: 18px;
     color: #167dd0;
-  }
-  /*-------
-  ----9--------- submit data button ------------- */
-
-  .btn-submit {
-    margin-left: 95px;
-    padding: 7px 25px;
-    font-size: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    border-radius: 3px;
-    margin-bottom: 35px;
   }
   #msg {
     color: green;
@@ -891,9 +784,7 @@ nav .fas {
     display: block;
   }
 }
-
-/* ---------------message  setup------------- */
-
+/* ---------------message send setup notifiation------------- */
 #msg {
   color: green;
   margin-top: -70px;
