@@ -138,7 +138,7 @@ nav ul li :hover {
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12)
-  border: 6px double rgb(158, 2, 67);
+/*   border: 6px double rgb(158, 2, 67); */
 }
 .about-col-1 h1 {
   margin-left: 100px;
@@ -149,7 +149,7 @@ nav ul li :hover {
   margin-left: 5px;
   width: 49%;
   border-radius: 5px;
-  border: 6px double rgb(158, 2, 67);
+/*   border: 6px double rgb(158, 2, 67); */
   background: #fff;
   height: 84vh;
   cursor: pointer;
