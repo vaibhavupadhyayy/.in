@@ -7,7 +7,6 @@ html {
   padding: 0;
 }
 body {
-  /* background: #fff; */
   background: #f6f6f6;
   color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -126,13 +125,19 @@ nav ul li :hover {
 /*====================================== for image left design======================================  */
 .about-col-1 {
   width: 43%;
-  border: 6px double rgb(158, 2, 67);
   background: #fff;
   border-radius: 5px;
   background-image: url(vaibhav.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 84vh;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 .about-col-1 h1 {
   margin-left: 100px;
@@ -147,6 +152,13 @@ nav ul li :hover {
   background: #fff;
   height: 84vh;
   cursor: pointer;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 .sub-title {
   font-size: 25px;
@@ -232,7 +244,6 @@ nav ul li :hover {
 }
 .services-list div {
   cursor: pointer;
-  border: 7px double #176e1c;
   background: #fff;
   background-blend-mode: lighten;
   background-size: cover;
@@ -242,6 +253,13 @@ nav ul li :hover {
   border-radius: 4px;
   transition: background 0.5s, transform 0.5s;
   height: 70vh;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 /*------------------------------------For services information css--------------------------  */
 .services-list .para {
@@ -300,8 +318,14 @@ h5 {
   overflow: hidden;
   height: 83vh;
   color: black;
-  border: 6px double #0b2849;
   background: #fff;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 .work :hover {
   transform: translate(-2px);
