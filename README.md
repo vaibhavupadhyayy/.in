@@ -14,7 +14,7 @@ Welcome to my personal portfolio website repository. This website showcases my e
 
 ## Description
 
-This repository contains the source code and assets for my personal portfolio website. It provides an overview of my educational background, skills, and showcases various projects I have worked on. Additionally, there is a contact form where visitors can reach out to me, and the data submitted through this form is stored in a Google Sheets document using the Google Sheets API.
+This repository contains the source code and assets for my personal portfolio website. It provides an overview of my educational background, and skills, and showcases various projects I have worked on. Additionally, there is a contact form where visitors can reach out to me, and the data submitted through this form is stored in a Google Sheets document using the Google Sheets API.
 
 ## Website Features
 
@@ -64,8 +64,8 @@ To use this personal portfolio website, follow these steps:
 If you have any questions or need assistance with this portfolio website, please feel free to contact me:
 
 - Email: vaibhavupadhyay306@gmail.com
-- Portfolio: [Your Portfolio Profile](https://vaibhavupadhyayy.github.io/.in/)
-- LinkedIn [Your LinkedIn Profile](https://www.linkedin.com/in/vaibhav-upadhyays/)
-- GitHub: [Your GitHub Profile](https://github.com/vaibhavupadhyayy)
+- Portfolio: [Portfolio Link](https://vaibhavupadhyayy.github.io/.in/)
+- LinkedIn [LinkedIn Profile](https://www.linkedin.com/in/vaibhav-upadhyays/)
+- GitHub: [GitHub Profile](https://github.com/vaibhavupadhyayy)
 
 Thank you for visiting my portfolio website!
