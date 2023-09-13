@@ -64,7 +64,7 @@ To use this personal portfolio website, follow these steps:
 If you have any questions or need assistance with this portfolio website, please feel free to contact me:
 
 - Email: vaibhavupadhyay306@gmail.com
-- Portfolio: [Your Portfolio Profile] (https://vaibhavupadhyayy.github.io/.in/)
+- Portfolio: [Your Portfolio Profile](https://vaibhavupadhyayy.github.io/.in/)
 - LinkedIn [Your LinkedIn Profile](https://www.linkedin.com/in/vaibhav-upadhyays/)
 - GitHub: [Your GitHub Profile](https://github.com/vaibhavupadhyayy)
 
